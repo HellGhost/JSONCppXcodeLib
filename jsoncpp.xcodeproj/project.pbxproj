@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		08D45C2E1C1F1B010048D8A7 /* json_reader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 08D45C271C1F1B010048D8A7 /* json_reader.cpp */; };
-		08D45C2F1C1F1B010048D8A7 /* json_tool.h in Headers */ = {isa = PBXBuildFile; fileRef = 08D45C281C1F1B010048D8A7 /* json_tool.h */; };
-		08D45C301C1F1B010048D8A7 /* json_value.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 08D45C291C1F1B010048D8A7 /* json_value.cpp */; };
-		08D45C311C1F1B010048D8A7 /* json_writer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 08D45C2B1C1F1B010048D8A7 /* json_writer.cpp */; };
 		08D45C321C1F1BC70048D8A7 /* json in Headers */ = {isa = PBXBuildFile; fileRef = 08D45C261C1F1A7A0048D8A7 /* json */; settings = {ATTRIBUTES = (Public, ); }; };
+		08D86BD41C1F2EF000470C86 /* json_reader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 08D86BCD1C1F2EF000470C86 /* json_reader.cpp */; };
+		08D86BD51C1F2EF000470C86 /* json_tool.h in Headers */ = {isa = PBXBuildFile; fileRef = 08D86BCE1C1F2EF000470C86 /* json_tool.h */; };
+		08D86BD61C1F2EF000470C86 /* json_value.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 08D86BCF1C1F2EF000470C86 /* json_value.cpp */; };
+		08D86BD71C1F2EF000470C86 /* json_writer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 08D86BD11C1F2EF000470C86 /* json_writer.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		089BDC551C1EDF9D000EB11C /* libjsoncpp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libjsoncpp.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		08D45C261C1F1A7A0048D8A7 /* json */ = {isa = PBXFileReference; lastKnownFileType = folder; name = json; path = json/include/json; sourceTree = "<group>"; };
-		08D45C271C1F1B010048D8A7 /* json_reader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = json_reader.cpp; path = ../jsoncpp/json/src/lib_json/json_reader.cpp; sourceTree = "<group>"; };
-		08D45C281C1F1B010048D8A7 /* json_tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = json_tool.h; path = ../jsoncpp/json/src/lib_json/json_tool.h; sourceTree = "<group>"; };
-		08D45C291C1F1B010048D8A7 /* json_value.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = json_value.cpp; path = ../jsoncpp/json/src/lib_json/json_value.cpp; sourceTree = "<group>"; };
-		08D45C2A1C1F1B010048D8A7 /* json_valueiterator.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = json_valueiterator.inl; path = ../jsoncpp/json/src/lib_json/json_valueiterator.inl; sourceTree = "<group>"; };
-		08D45C2B1C1F1B010048D8A7 /* json_writer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = json_writer.cpp; path = ../jsoncpp/json/src/lib_json/json_writer.cpp; sourceTree = "<group>"; };
+		08D86BCD1C1F2EF000470C86 /* json_reader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = json_reader.cpp; sourceTree = "<group>"; };
+		08D86BCE1C1F2EF000470C86 /* json_tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = json_tool.h; sourceTree = "<group>"; };
+		08D86BCF1C1F2EF000470C86 /* json_value.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = json_value.cpp; sourceTree = "<group>"; };
+		08D86BD01C1F2EF000470C86 /* json_valueiterator.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = json_valueiterator.inl; sourceTree = "<group>"; };
+		08D86BD11C1F2EF000470C86 /* json_writer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = json_writer.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,11 +38,7 @@
 		089BDC4C1C1EDF9D000EB11C = {
 			isa = PBXGroup;
 			children = (
-				08D45C271C1F1B010048D8A7 /* json_reader.cpp */,
-				08D45C281C1F1B010048D8A7 /* json_tool.h */,
-				08D45C291C1F1B010048D8A7 /* json_value.cpp */,
-				08D45C2A1C1F1B010048D8A7 /* json_valueiterator.inl */,
-				08D45C2B1C1F1B010048D8A7 /* json_writer.cpp */,
+				08D86BCB1C1F2EF000470C86 /* lib_json */,
 				08D45C261C1F1A7A0048D8A7 /* json */,
 				089BDC561C1EDF9D000EB11C /* Products */,
 			);
@@ -56,6 +52,19 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		08D86BCB1C1F2EF000470C86 /* lib_json */ = {
+			isa = PBXGroup;
+			children = (
+				08D86BCD1C1F2EF000470C86 /* json_reader.cpp */,
+				08D86BCE1C1F2EF000470C86 /* json_tool.h */,
+				08D86BCF1C1F2EF000470C86 /* json_value.cpp */,
+				08D86BD01C1F2EF000470C86 /* json_valueiterator.inl */,
+				08D86BD11C1F2EF000470C86 /* json_writer.cpp */,
+			);
+			name = lib_json;
+			path = json/src/lib_json;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -63,8 +72,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08D86BD51C1F2EF000470C86 /* json_tool.h in Headers */,
 				08D45C321C1F1BC70048D8A7 /* json in Headers */,
-				08D45C2F1C1F1B010048D8A7 /* json_tool.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,9 +133,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08D45C2E1C1F1B010048D8A7 /* json_reader.cpp in Sources */,
-				08D45C311C1F1B010048D8A7 /* json_writer.cpp in Sources */,
-				08D45C301C1F1B010048D8A7 /* json_value.cpp in Sources */,
+				08D86BD41C1F2EF000470C86 /* json_reader.cpp in Sources */,
+				08D86BD61C1F2EF000470C86 /* json_value.cpp in Sources */,
+				08D86BD71C1F2EF000470C86 /* json_writer.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

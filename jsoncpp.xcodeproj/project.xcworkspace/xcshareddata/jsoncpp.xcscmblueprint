@@ -1,25 +1,25 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3642467E64C54FC70A3C4221833F90F3D1D1927D",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5CAC6AA44CF3DAB0E51993CB862E0C8A120AA8BD",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "3642467E64C54FC70A3C4221833F90F3D1D1927D" : 0,
+    "5CAC6AA44CF3DAB0E51993CB862E0C8A120AA8BD" : 0,
     "7A197CB7B32EDB86AEA5CFBEAF5A15B1DBED1C37" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5CDE321A-BA7D-4DFB-BA0A-97EF5BC82163",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "3642467E64C54FC70A3C4221833F90F3D1D1927D" : "livepen2linux\/",
-    "7A197CB7B32EDB86AEA5CFBEAF5A15B1DBED1C37" : "livepen2linux\/deps\/JSONcpp\/json\/"
+    "5CAC6AA44CF3DAB0E51993CB862E0C8A120AA8BD" : "JSONCppXcodeLib\/",
+    "7A197CB7B32EDB86AEA5CFBEAF5A15B1DBED1C37" : "JSONCppXcodeLib\/json\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "jsoncpp",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
-  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "deps\/JSONcpp\/jsoncpp.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "jsoncpp.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
     {
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/git-lab-hq.agroup.dot.corp\/modules-linux\/livepen2linux.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/HellGhost\/JSONCppXcodeLib.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3642467E64C54FC70A3C4221833F90F3D1D1927D"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5CAC6AA44CF3DAB0E51993CB862E0C8A120AA8BD"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/open-source-parsers\/jsoncpp.git",
